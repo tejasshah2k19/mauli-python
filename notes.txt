@@ -1,0 +1,163 @@
+.py -> transalte -> .pyc 
+.pyc -> run 
+
+
+.c -> compile -> .bak .exe .obj -> run 
+
+variable -> its data name , which is going to hold the value,you may change the value   
+            x , y, ans 
+
+            x = 3 constant fix final 
+
+            x = 5 error 
+
+
+
+data type-> what type of value you can store in a variable 
+
+x = 10  # numeric -> integer 
+x = "royal" # string 
+x  4= 20.20 # numeric -> float 
+
+
+
+x = 10 # integer 
+x = 10.10 # float 
+x = "royal" # string 
+
+-----------------------------------
+
+1) take two numbers from the user and print max from it 
+2) take a number from user and check number is odd or even 
+3) take a number from user and check number is positive or negative 
+
+
+
+4) find max from three numbers 
+
+a 
+b 
+c 
+
+
+if a > b && a > c :
+    print("a is max")
+
+
+|| 
+
+5)  take gender from user , and age from user 
+        you need print user is eligible for voting or not 
+            gender -> female and age ->  21+ 
+            gender -> male and age -> 18+ 
+
+-------------------------------------------------------
+
+
+comments ->
+
+singleline  # 
+mulitline '''    xxxxx  ''' 
+          """    xxxxx  """
+
+--------------------------------------------------------
+
+x = 10 # object -- non primitive 
+print(type(x))  -> <class<int>> 
+
+x = "royal"
+
+x = 20.20 
+
+x = True 
+x = False 
+bool -> boolean 
+
+
+sequence type -> list tuple range 
+set type -> set , frozenset 
+map -> dictionary 
+
+
+-------------------------------------------------------
+
+take number from user -> 10 
+print multiplication table of it 
+
+10 * 1 = 10 
+10 * 2 = 20
+-----
+-----
+10 * 10 = 100 
+
+
+num = 129 
+12 
+num = 36 
+9 
+num = 254 
+11
+num = 12 
+3 
+num = 31
+4
+
+
+
+num = 126 
+
+rem   = num % 10 # 6 2 1 
+
+num= int(num / 10) # 12 ->0 
+goto line 109 
+
+
+
+
+
+
+
+
+126 
+
+%10 -> 6 
+num 12 
+%10 -> 2 
+1 
+%10 -> 1 
+0 
+
+sum = 0 
+while num > 0 :
+    rem = num % 10 
+    sum = sum + rem #6+2+1  
+    num = int(num / 10) #1  
+
+
+
+
+armstrong-> 
+
+123 -> 1^3 + 2^3 + 3^3 -> 123
+
+123 => (1+8+27):(36) -> not armstrong 
+153 => (1+125+27):(153) -> armstrong 
+
+--------------------------------------
+
+function -> code 
+         collection of instruction 
+         call it 
+call function 
+
+def 
+
+------------------------------------------
+
+
+
+
+
+
+
+
