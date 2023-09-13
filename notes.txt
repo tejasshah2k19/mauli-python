@@ -154,6 +154,62 @@ def
 
 ------------------------------------------
 
+create 1 function that take 2 argument and it returns max of two , 
+
+    max(x,y) -> return x if x > y , return y if y  > x 
+
+now that max value we need to reuse in oddEven(max) 
+oddEven() return 1 if number is even and -1 if number is odd 
+
+
+max(4,6)
+
+6 
+oddEven(6) -> 1 
+
+1) take name from user and find out length of the name , if length is greater that 5 then print good 
+    else print bad 
+
+2) take string from user and find out how many vowels present in a string 
+    loop , if 
+    str = "jdyyuiuoiojihgj" 
+    cnt =0 
+   for x in str: 
+        print(x)
+        cnt = cnt + 1 
+
+3) take email from user and print valid if its valid , print not valid if not 
+    XXX@XX.XX -> valid 
+    tejas@gmail.com 
+    ram@royal.in 
+
+
+    om@XX.XX
+    1) total length 8 
+    2) @ 3rd position -> 3 4 5  
+    3) @ position+2 -> . 
+    
+
+---------------------------------------------------------------------------
+
+1) take string from user and check every words in a string is in proper title or not 
+        royal edu => False 
+        Royal edu => False 
+        Royal Edu => True 
+
+2) take string from user and eliminates all vowels from the string 
+    input => royal education 
+    output => ryl dctn 
+
+3) take password from user and print strength status of password 
+    status criteria 
+            Strong => length 8+ , 1 upper , 1 lower ,1 digit, 1 special symbol 
+            Good => length 8+ , any of two from [ 1upper,1lower,1digit,1special symbol]
+            weak => length < 8 
+                 => missing any of two -> [ digit   upper   lower   special symbol ] 
+                  
+
+
 
 
 
