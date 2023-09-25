@@ -197,6 +197,11 @@ oddEven(6) -> 1
         Royal edu => False 
         Royal Edu => True 
 
+        a) word extract {split}
+        b) word first character capital 
+        c) word second to end character small 
+
+
 2) take string from user and eliminates all vowels from the string 
     input => royal education 
     output => ryl dctn 
@@ -208,6 +213,22 @@ oddEven(6) -> 1
             weak => length < 8 
                  => missing any of two -> [ digit   upper   lower   special symbol ] 
                   
+
+
+        a) length 8+ 
+        b) 1 upper 
+        c) 1 lower 
+        d) 1 digit 
+        e) 1 special 
+
+
+
+
+
+
+
+
+
 
 
 
