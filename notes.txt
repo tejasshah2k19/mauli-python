@@ -223,7 +223,10 @@ oddEven(6) -> 1
 
 
 
-
+list [] 
+tuple ()
+set {}
+dictionary {key:value} 
 
 
 
