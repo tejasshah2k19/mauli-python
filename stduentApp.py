@@ -34,7 +34,47 @@ class Course:
         print("\nId ",self.id)
         print("\nCourseName ",self.name)
         print("\nCapacity ",self.capacity)
-        print("\nEnrollStudent ",self.cstudent)
+        print("\nEnrollStudent : ")
+        for s in self.cstudent :
+            print(s.name)
+
+
+d1 = Stduent()
+d1.id = "1" 
+d1.name = "x"
+d1.userName = "x"
+d1.password = "x"
+students.append(d1)
+
+d2 = Stduent()
+d2.id = "2" 
+d2.name = "y"
+d2.userName = "y"
+d2.password = "y"
+students.append(d2)
+
+d3 = Stduent()
+d3.id = "3" 
+d3.name = "z"
+d3.userName = "z"
+d3.password = "z"
+students.append(d3)
+
+c1 = Course()
+c1.id= "1"
+c1.name = "C"
+c1.capacity = 2 
+
+c2 = Course()
+c2.id= "2"
+c2.name = "C++"
+c2.capacity = 2 
+
+courses.append(c1)
+courses.append(c2)
+
+
+
 
 
 while True:
@@ -57,6 +97,24 @@ while True:
                 flag = True 
                 print("\nWelcome To Canvas")
                 print("\n1 For EnrollCourse\n2 For Logout\nEnter Choice")
+                choice2 = int(input())
+
+                if choice2 == 1 : 
+                    for c in courses: 
+                        print(c.id," ",c.name) 
+                    print("\nPlease Enter Course Id for Enrollment")
+                    courseId = input() 
+
+                    for c in courses: 
+                        if c.id == courseId:
+                            if len(c.cstudent) == c.capacity:
+                                print("\nSorry Course Full")
+
+                            else:
+                                print("\nEnrollment done")
+                                c.cstudent.append(s)
+                            
+                                
                 break 
         if flag == False:
             print("Invalid Credentials PTA!!")    
